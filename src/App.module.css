@@ -1,0 +1,20 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.backgroundimage {
+  flex-grow: 1;
+  background-image: url(./images/wallpaper.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.content {
+  flex-grow: 1;
+  position: relative; /* Add this line to allow content to move down */
+  padding-top: 100px; /* Adjust this value based on the height of Navsection */
+}

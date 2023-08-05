@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nunito:wght@200&family=Quicksand:wght@500&display=swap');
+
+.mainsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  overflow: hidden; /* Prevent content overflow */
+  background: url("../../images/kachess.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.bigtextcol {
+    /* padding: 15vh;  */
+    text-align: center;
+}
+
+.h1class {
+    font-size: 5rem;
+    /* font-weight: lighter; */
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+.h3class {
+    font-size: 2rem;
+    /* font-weight: lighter; */
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+.movingtextcontainer {
+    display: flex;
+    gap: 8px;
+    /* padding-bottom: 50px; */
+    min-height: 85px;
+    justify-content: flex-start;
+  }
+  
+  .movingtextcontainer p {
+    margin: 0;
+  }
+  
+  .movingtext {
+    font-family: 'Quicksand', sans-serif !important;
+    color: #f9f9f9;
+    font-weight: 900;
+    padding-bottom: 0px !important;
+    font-size: 1.5rem;
+  }
+  
+  .subtext {
+    font-size: 1.5rem;
+    font-family: 'Quicksand', sans-serif !important;
+    color: #ffff;
+  }
