@@ -6,38 +6,40 @@ import Col from "react-bootstrap/Col";
 import { Fade } from "react-awesome-reveal";
 import headshot from '../../images/headshot.png';
 
+
 function Aboutsection() {
-  return (
-    <Fade duration={900} triggerOnce={true}>
-      <section id="About">
-        <Container className={classes.aboutsection}>
-          <Row className={classes.contentrow}>
-            <Col xs={12} md={6} className={classes.imageContainer}>
-              <div className="p-md-5 p-5 d-flex justify-content-center ">
-                <img
-                  src={headshot}
-                  alt="headshot"
-                  className={classes.face}
-                />
-              </div>
-            </Col>
-            <Col xs={12} md={6} className={classes.textContainer}>
-              <div>
-                <h2 className={classes.h2class}>About Me</h2>
-                <p className={classes.desctext}>
-                  I'm a Computer Science major undergrad at the Allen School at the University of Washington. I enjoy problem solving and have a passion for building apps as well as machine learning.
-                </p>
-                <p className={classes.desctext}>
-                  I'm looking forward to learning more about mobile development and ML this summer through internships and my own projects. I'm looking for internships in the SWE field, and if you'd like to contact me,
-                  please email me at sriharik844@gmail.com.
-                </p>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-    </Fade>
-  );
+    return (
+        <Fade duration={900} triggerOnce={true}>
+            <section id="About">
+                <Container className={classes.aboutsection}>
+                    <Row className={classes.contentrow}>
+                        <Col xs={12} md={6} className={classes.imageContainer}>
+                            <div className="p-md-5 p-5 d-flex justify-content-center ">
+                                <img
+                                    src={headshot}
+                                    alt="headshot"
+                                    className={classes.face}
+                                />
+                            </div>
+                        </Col>
+                        <Col xs={12} md={6} className={classes.textContainer}>
+                            <div>
+                                <h2 className={classes.h2class}>About Me</h2>
+                                <p className={classes.desctext}>
+                                    I'm Srihari Krishnaswamy, I'm a second year Computer Science major undergrad at the Allen School at the University of Washington. I enjoy problem solving and have a passion for building apps as well as machine learning. 
+                                    Currently, I'm studying CS while learning about DS and Machine Learning, working on personal projects, and serving as software co-lead of my school's underwater Robotics Club.
+                                </p>
+                                <p className={classes.desctext}>
+                                    For fun, I like to produce music, play basketball, code and watch movies. I've recently gotten into signal processing and ML in the audio field related to music production! I also just like going new places and exploring.
+                                </p>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+        </Fade>
+    );
 }
+
 
 export default Aboutsection;
