@@ -9,8 +9,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import { faRobot } from '@fortawesome/free-solid-svg-icons';
-import { faSprayCan } from '@fortawesome/free-solid-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faCamera } from '@fortawesome/free-solid-svg-icons';
+import { faKeyboard } from '@fortawesome/free-solid-svg-icons';
 
 function Contactsection() {
   return (
@@ -59,7 +60,7 @@ function Contactsection() {
                       <Row className={classes.experiencecontainer}>
                             <div className={classes.iconcat}>
                                 <div className={classes.whitecircle}>
-                                    <FontAwesomeIcon icon={faEnvelope} />
+                                    <FontAwesomeIcon icon={faPhone} />
                                 </div>
                             </div>
                             <div className={classes.desctextcontainer}>
@@ -69,7 +70,7 @@ function Contactsection() {
                       <Row className={classes.experiencecontainer}>
                             <div className={classes.iconcat}>
                                 <div className={classes.whitecircle}>
-                                    <FontAwesomeIcon icon={faBriefcase} />
+                                    <FontAwesomeIcon icon={faCamera} />
                                 </div>
                             </div>
                             <div className={classes.desctextcontainer}>
@@ -79,7 +80,7 @@ function Contactsection() {
                     <Row className={classes.experiencecontainer}>
                             <div className={classes.iconcat}>
                                 <div className={classes.whitecircle}>
-                                    <FontAwesomeIcon icon={faBriefcase} />
+                                    <FontAwesomeIcon icon={faKeyboard} />
                                 </div>
                             </div>
                             <div className={classes.desctextcontainer}>

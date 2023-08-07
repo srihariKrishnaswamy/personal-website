@@ -48,7 +48,7 @@
     }
     
     .nav li {
-      margin-top: 0.25rem; /* Add some spacing between the collapsed list items */
+      margin-top: 0.1rem; /* Add some spacing between the collapsed list items */
     }
   
     .nav .option {
