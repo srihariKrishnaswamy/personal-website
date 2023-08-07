@@ -40,7 +40,7 @@
     background-color: #555
   }
   
-  @media (max-width: 650px) {
+  @media (max-width: 700px) {
     /* Collapse the options into a vertical list when the window width is less than 600 pixels */
     .nav ul {
       flex-direction: column;
@@ -48,7 +48,7 @@
     }
     
     .nav li {
-      margin-top: 1rem; /* Add some spacing between the collapsed list items */
+      margin-top: 0.25rem; /* Add some spacing between the collapsed list items */
     }
   
     .nav .option {

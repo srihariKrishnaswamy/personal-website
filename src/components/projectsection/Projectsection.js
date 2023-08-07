@@ -26,7 +26,7 @@ function Projectsection() {
                         </b>
                         </p>
                         <p className={classes.desctext}>
-                            A web app I built with PyTorch, Python and React that predicts the key, model, feel and bpm of trap songs using deep Convolutional Neural Networks. 
+                            A web app I built with PyTorch, Python and React that predicts the key, mode, feel and bpm of trap songs using deep Convolutional Neural Networks. 
                             It also implements the OpenAI API to prompt Chat-GPT based on the predicted labels.
                         </p>
                     

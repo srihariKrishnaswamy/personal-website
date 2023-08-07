@@ -32,10 +32,6 @@ function Aboutsection() {
                                 <p className={classes.desctext}>
                                     For fun, I like to produce music, play basketball, code and watch movies. I've recently gotten into signal processing and ML in the audio field related to music production! I also just like going new places and exploring.
                                 </p>
-                                <p className={classes.desctext}>
-                                    <b>My Skills: </b>
-                                    Python, Java, React.js, PyTorch, Machine Learning, Node.js, Flask, MongoDB, SQL, Docker, Google Firebase, Dart, Flutter
-                                </p>
                             </div>
                         </Col>
                     </Row>
