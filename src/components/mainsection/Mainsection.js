@@ -1,12 +1,38 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import classes from './Mainsection.module.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Fade } from 'react-awesome-reveal';
-import Typed from 'react-typed'; // Import react-typed
 
 function Mainsection() {
+  const phrases = ['Developer', 'Student', 'Software Engineer', 'Music Producer'];
+  const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
+  const [currentCharIndex, setCurrentCharIndex] = useState(0);
+  const [typing, setTyping] = useState('');
+
+  useEffect(() => {
+    const typingInterval = setInterval(() => {
+      const phrase = phrases[currentPhraseIndex];
+      const char = phrase[currentCharIndex];
+
+      if (char) {
+        setTyping(prevTyping => prevTyping + char);
+        setCurrentCharIndex(prevIndex => prevIndex + 1);
+      } else {
+        clearInterval(typingInterval);
+
+        setTimeout(() => {
+          setCurrentCharIndex(0);
+          setCurrentPhraseIndex(prevIndex => (prevIndex + 1) % phrases.length);
+          setTyping('');
+        }, 1500); // Delay before starting the next phrase
+      }
+    }, 50); // Delay between typing each character
+
+    return () => clearInterval(typingInterval);
+  }, [currentPhraseIndex, currentCharIndex]);
+
   return (
     <Container className={classes.mainsection}>
       <Fade duration={900} triggerOnce>
@@ -16,14 +42,7 @@ function Mainsection() {
             <h1 className={classes.h1class}>Srihari</h1>
             <div className={classes.movingtextcontainer}>
               <p className={classes.subtext}>I'm a</p>
-              <Typed
-                strings={['Developer', 'Student', 'Software Engineer', 'Music Producer']}
-                typeSpeed={50}
-                backSpeed={60}
-                backDelay={1500}
-                loop
-                className={classes.movingtext}
-              />
+              <span className={classes.movingtext}>{typing}</span>
             </div>
           </Col>
         </Row>
