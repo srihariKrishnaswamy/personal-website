@@ -15,7 +15,7 @@ import { faSprayCan } from '@fortawesome/free-solid-svg-icons';
 function Contactsection() {
   return (
     <Fade duration={900} triggerOnce={true}>
-    <section className={appClasses.section} id="skills">
+    <section className={appClasses.section} id="contact">
         <Container className={classes.section}>
             <Row className={classes.contentrow}>
               <h2 className={classes.h2class}>Contact Me</h2>
@@ -63,7 +63,7 @@ function Contactsection() {
                                 </div>
                             </div>
                             <div className={classes.desctextcontainer}>
-                                <p className={classes.desctext}><b>Phone: </b>425-394-3264</p>
+                                <p className={classes.desctext}><b>Phone: </b>1 425-394-3264</p>
                             </div>
                     </Row>
                       <Row className={classes.experiencecontainer}>

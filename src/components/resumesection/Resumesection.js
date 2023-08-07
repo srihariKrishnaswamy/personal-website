@@ -9,7 +9,7 @@ import appClasses from '../../App.module.css';
 function Resumesection() {
   return (
     <Fade duration={900} triggerOnce={true}>
-    <section className={appClasses.section} id="skills">
+    <section className={appClasses.section} id="resume">
         <Container className={classes.section}>
             <Row className={classes.contentrow}>
               <h2 className={classes.h2class}>My Resume</h2>
