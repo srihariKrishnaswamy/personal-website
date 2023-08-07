@@ -5,12 +5,12 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Fade } from "react-awesome-reveal";
 import headshot from '../../images/headshot.png';
-
+import appClasses from '../../App.module.css';
 
 function Aboutsection() {
     return (
         <Fade duration={900} triggerOnce={true}>
-            <section id="About">
+            <section className={appClasses.section}id="About">
                 <Container className={classes.aboutsection}>
                     <Row className={classes.contentrow}>
                         <Col xs={12} md={6} className={classes.imageContainer}>
@@ -31,6 +31,10 @@ function Aboutsection() {
                                 </p>
                                 <p className={classes.desctext}>
                                     For fun, I like to produce music, play basketball, code and watch movies. I've recently gotten into signal processing and ML in the audio field related to music production! I also just like going new places and exploring.
+                                </p>
+                                <p className={classes.desctext}>
+                                    <b>My Skills: </b>
+                                    Python, Java, React.js, PyTorch, Machine Learning, Node.js, Flask, MongoDB, SQL, Docker, Google Firebase, Dart, Flutter
                                 </p>
                             </div>
                         </Col>

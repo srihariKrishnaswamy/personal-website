@@ -14,7 +14,11 @@
 }
 
 .content {
-  flex-grow: 1;
-  position: relative; /* Add this line to allow content to move down */
-  padding-top: 100px; /* Adjust this value based on the height of Navsection */
+  flex-grow: 1; 
+  position: relative; 
+  /* padding-top: 100px; */
+}
+
+.section {
+  padding: 1rem;
 }
