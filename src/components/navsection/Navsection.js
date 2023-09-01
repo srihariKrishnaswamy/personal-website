@@ -6,7 +6,7 @@ function Navsection() {
   return (
     <Container className={classes.nav}>
       <a href="/" className={classes.site_title}>Srihari</a>
-      <ul >
+      <ul className={classes.options}>
           <li>
               <a href="#About" className={classes.option}>About</a>
           </li>
