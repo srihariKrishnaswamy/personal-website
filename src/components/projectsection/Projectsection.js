@@ -13,6 +13,7 @@ function Projectsection() {
         <Container className={classes.section}>
             <Row className={classes.contentrow}>
                 <h2 className={classes.h2class}>Projects</h2>
+                <h4 className={classes.h4class}>Feel free to click on one!</h4>
             </Row>
             {/* <p className={classes.desctext}>
                 Go ahead and click on one!
@@ -69,7 +70,7 @@ function Projectsection() {
                         </b>
                         </p>
                         <p className={classes.desctext}>
-                            The website you're looking at right now! I wrote this in React.js one weekend and deployed it on vercel. I'll update it once every few months or so, so this is how it'll be for a while.
+                            The website you're looking at right now! I wrote this in React.js one weekend and deployed it on vercel. I'll update it once every three to four months or so, so this is how it'll be for a while.
                         </p>
                 </Row>
             </a>

@@ -26,8 +26,8 @@ function Aboutsection() {
                             <div>
                                 <h2 className={classes.h2class}>About Me</h2>
                                 <p className={classes.desctext}>
-                                    I'm Srihari Krishnaswamy, I'm a second year Computer Science major undergrad at the Allen School at the University of Washington. I enjoy problem solving and have a passion for building apps as well as machine learning. 
-                                    Currently, I'm studying CS while learning about DS and Machine Learning, working on personal projects, and serving as software co-lead of my school's underwater Robotics Club.
+                                    I'm Srihari Krishnaswamy and I'm a second year Computer Science major undergrad at the Allen School at the University of Washington. I enjoy problem solving and have a passion for building apps as well as Machine Learning. 
+                                    Currently, I'm studying CS while learning about ML, working on personal projects, and serving as software co-lead of my school's underwater robotics club.
                                 </p>
                                 <p className={classes.desctext}>
                                     For fun, I like to produce music, play basketball, code and watch movies. I've recently gotten into signal processing and ML in the audio field related to music production! I also just like going new places and exploring.

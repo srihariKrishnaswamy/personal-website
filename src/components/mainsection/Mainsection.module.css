@@ -15,6 +15,9 @@
 .bigtextcol {
     /* padding: 15vh;  */
     text-align: center;
+    /* background-color: black;
+    padding: 4vh;
+    border-radius: 50px; */
 }
 
 .h1class {
@@ -22,6 +25,7 @@
     /* font-weight: lighter; */
     font-family: 'Quicksand', sans-serif;
     color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .h3class {
@@ -29,6 +33,7 @@
     /* font-weight: lighter; */
     font-family: 'Quicksand', sans-serif;
     color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .movingtextcontainer {
@@ -49,10 +54,12 @@
     font-weight: 900;
     padding-bottom: 0px !important;
     font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
   
   .subtext {
     font-size: 1.5rem;
     font-family: 'Quicksand', sans-serif !important;
     color: #ffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }

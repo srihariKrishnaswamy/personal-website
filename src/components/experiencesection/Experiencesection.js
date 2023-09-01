@@ -17,11 +17,11 @@ function Experiencesection() {
             <Row className={classes.experiencecontainer}>
                     <p className={classes.desctext}>
                       <b>
-                      Software Development Intern | The Verse | June 2023 - Present
+                      Software Development Intern | The Verse | June 2023 - September 2023
                       </b>
                     </p>
                     <p className={classes.desctext}>
-                      I'm currently building out a webapp for a wellness based video game using React.js. I'm also working on a backend API for tracking user's sound preferences with Express.js and Node.js. 
+                      I'm built out a MERN webapp for a wellness based video game startup. I worked on it from all parts of the stack: I architected & created the MongoDB databse, wrote a secure REST API with Node & Express, and developed a custom frequency player based on solfeggio tones & mathematical principles on the frontend. Additionally, I initialized & managed the production environment for the REST API. I was also exposed to agile methodologies all through my time at the Verse.
                     </p>
             </Row>
             <Row className={classes.experiencecontainer}>
@@ -34,7 +34,7 @@ function Experiencesection() {
                       I'm leading software implementation for the 2024 MATE ROV competition. Responsibilities also include working with new members, overseeing implementation for the MATE ML Challenge, helping manage the organization.
                     </p>
                     <p className={classes.desctext}>
-                      Before co-leading software implementation, I led our desktop app for the 2023 MATE Competition's ML Challenge, where I created a Machine Learning project to detect underwater organisms through underwater robots' footage. I also worked on autonomous motion for our robot.
+                      Before co-leading software implementation, I led our desktop app for the 2023 MATE Competition's ML Challenge, where I created a Machine Learning project to detect underwater organisms through underwater robots' footage, winning 2nd place nationally among top colleges. I also worked on autonomous motion scripts for our robot.
                     </p>
             </Row>
             <Row className={classes.experiencecontainer}>
@@ -44,7 +44,7 @@ function Experiencesection() {
                       </b>
                     </p>
                     <p className={classes.desctext}>
-                      I worked on a research paper studying accessibility solutions for sonification of online data visualizations alongside a PhD candidate and another undergrad. Our paper is pending review from a technical conference currently.
+                      I worked on a research paper studying accessibility solutions for sonification of online data visualizations alongside a PhD candidate Ather Sharif and under prof. Jacob Wobbrock. Our paper is pending review from a technical conference currently.
                     </p>
             </Row>
             <Row className={classes.experiencecontainer}>

@@ -59,7 +59,7 @@ function Skillsection() {
                             </div>
                         </div>
                         <div className={classes.desctextcontainer}>
-                            <p className={classes.desctext}><b>Machine Learning: </b>PyTorch, Audio Signal Processing, Tensorflow</p>
+                            <p className={classes.desctext}><b>Machine Learning: </b>PyTorch, Pandas, Audio Signal Processing</p>
                         </div>
                 </Row>
                 <Row className={classes.experiencecontainer}>
