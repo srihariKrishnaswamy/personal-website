@@ -70,7 +70,7 @@ function Projectsection() {
                         </b>
                         </p>
                         <p className={classes.desctext}>
-                            The website you're looking at right now! I wrote this in React.js one weekend and deployed it on vercel. A few weeks later, I decided to create a chatbot & hook it up to the website, which I did using Python, the OpenAI API & a quick flask server.
+                            The website you're looking at right now! I wrote this in React.js one weekend and deployed it on vercel. A few weeks later, I decided to create a chatbot & hook it up to the website, which I did using Python, the OpenAI API & a quick flask server which I deployed on render.com.
                         </p>
                 </Row>
             </a>
