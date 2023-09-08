@@ -6,6 +6,7 @@ import Projectsection from "./components/projectsection/Projectsection";
 import Skillsection from "./components/skillsection/Skillsection";
 import Resumesection from "./components/resumesection/Resumesection";
 import Contactsection from "./components/contactsection/Contactsection";
+import Chatbotframe from "./components/chatbotframe/Chatbotframe";
 import classes from './App.module.css';
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <div className={classes.backgroundimage}>
         <Navsection/>
         <div className={classes.content}>
+          <Chatbotframe />
           <Mainsection/>
           <Aboutsection/>
           <Experiencesection/>
