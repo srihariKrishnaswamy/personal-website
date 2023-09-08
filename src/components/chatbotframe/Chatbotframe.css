@@ -73,14 +73,16 @@
   }
 
   /* CSS for the input field */
-.input {
+  .input {
     width: 60%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
-  }
-  
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white */
+}
+
   /* CSS for the button */
   .button {
     width: 20%;
