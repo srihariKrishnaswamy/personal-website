@@ -62,7 +62,7 @@ function Projectsection() {
                 </Row>
             </a>
             <div className={classes.paddingspace}/>
-            <a href="https://github.com/srihariKrishnaswamy/personal-website">
+            <a href="https://github.com/srihariKrishnaswamy/PersonalWebsiteChatbotBackend">
                 <Row className={classes.experiencecontainer}>
                     <p className={classes.desctext}>
                         <b>
@@ -70,7 +70,7 @@ function Projectsection() {
                         </b>
                         </p>
                         <p className={classes.desctext}>
-                            The website you're looking at right now! I wrote this in React.js one weekend and deployed it on vercel. I'll update it once every three to four months or so, so this is how it'll be for a while.
+                            The website you're looking at right now! I wrote this in React.js one weekend and deployed it on vercel. A few weeks later, I decided to create a chatbot & hook it up to the website, which I did using Python, the OpenAI API & a quick flask server.
                         </p>
                 </Row>
             </a>
