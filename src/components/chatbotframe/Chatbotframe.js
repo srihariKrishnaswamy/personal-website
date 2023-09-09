@@ -25,7 +25,7 @@ function Chatbotframe() {
 
   const getAPIRes = async (question) => {
     try {
-        const postData = {ask: question}
+        const postData = {ask: question + " THIS IS REALLY IMPORTANT: Make sure to limit your response to strictly under 50 words no matter what the question just was."}
         const response = await axios.post('https://personal-chatbot-0zq8.onrender.com/chatbot', postData);
         setOutText(response.data.response)
         setIsLoading(false)
