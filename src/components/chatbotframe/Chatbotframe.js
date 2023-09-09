@@ -25,9 +25,14 @@ function Chatbotframe() {
 
   const getAPIRes = async (question) => {
     try {
-        const postData = {ask: question + " THIS IS REALLY IMPORTANT: Make sure to limit your response to strictly under 50 words no matter what the question just was."}
+        const postData = {ask: question + " THIS IS REALLY IMPORTANT: Make sure to limit your response to strictly under 50 words/400 characters no matter what the question just was."}
         const response = await axios.post('https://personal-chatbot-0zq8.onrender.com/chatbot', postData);
-        setOutText(response.data.response)
+        const newRes = response.data.response;
+        if (newRes.length < 450) {
+          setOutText(newRes)
+        } else {
+          setOutText("Response is too long to be displayed, please reword your question.")
+        }
         setIsLoading(false)
         console.log(response.data);
       } catch (error) {
