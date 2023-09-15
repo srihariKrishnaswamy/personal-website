@@ -11,7 +11,7 @@ function Chatbotframe() {
   const [newMessageText, setNewMessageText] = useState("");
   const [fullyUp, setFullyUp] = useState(true);
   const [isLoading, setIsLoading] = useState(false);
-  const [outText, setOutText] = useState("Hello, I am Jarvis. Just kidding, I'm actually just Srihari's chatbot here to answer any questions about Srihari! I was made using the OpenAI API & was deployed on a free deployment service. Do note that because of that, I might take a second to answer your first question. Fire away!")
+  const [outText, setOutText] = useState("Hello, I'm Srihari's chatbot here to answer any questions about Srihari! I was made using the OpenAI API & was deployed on a free deployment service. Do note that because of that, I might take a second to answer your first question. Fire away!")
 
   useEffect(() => {
     axios.post('https://personal-chatbot-0zq8.onrender.com/chatbot', {ask: ""}) // warming up the API in case it's been 15 mins since the last server activity
