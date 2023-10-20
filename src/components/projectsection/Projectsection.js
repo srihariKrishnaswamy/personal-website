@@ -31,6 +31,7 @@ function Projectsection() {
               </p>
             </Row>
           </a>
+          <div className={classes.paddingspace} />
           <a href="https://github.com/srihariKrishnaswamy/trap-deconstructed">
             <Row className={classes.experiencecontainer}>
               <p className={classes.desctext}>
