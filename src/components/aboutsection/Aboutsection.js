@@ -26,7 +26,7 @@ function Aboutsection() {
                             <div>
                                 <h2 className={classes.h2class}>About Me</h2>
                                 <p className={classes.desctext}>
-                                    I'm Srihari Krishnaswamy and I'm a class of 2025 Computer Science major undergrad at the Allen School at the University of Washington. I enjoy problem solving and have a passion for building apps as well as Machine Learning. 
+                                    I'm Srihari Krishnaswamy and I'm a class of 2026 Computer Science major undergrad at the Allen School at the University of Washington. I enjoy problem solving and have a passion for building apps as well as Machine Learning. 
                                     Currently, I'm studying CS while learning about ML, working on personal projects, and serving as software co-lead of my school's underwater robotics club.
                                 </p>
                                 <p className={classes.desctext}>
