@@ -11,7 +11,7 @@ function Navsection() {
               <a href="#About" className={classes.option}>About</a>
           </li>
           <li>
-            <a href="#experience" className={classes.option}>Experience</a>
+            <a href="#experience" className={classes.option}>Work Experience</a>
           </li>
           <li>
             <a href="#projects" className={classes.option}>Projects</a>

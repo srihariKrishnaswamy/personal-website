@@ -12,7 +12,46 @@ function Experiencesection() {
     <section className={appClasses.section} id="experience">
         <Container className={classes.section}>
             <Row className={classes.contentrow}>
-              <h2 className={classes.h2class}>Experiences</h2>
+              <h2 className={classes.h2class}>Work Experience</h2>
+            </Row>
+            <Row className={classes.experiencecontainer}>
+                    <p className={classes.desctext}>
+                      <b>
+                      Software Development Intern | Amazon | June 2024 - Present
+                      </b>
+                    </p>
+                    <p className={classes.desctext}>
+                    I'm building a full stack query system helping on-call devs handle tickets more efficiently, targeting cutting down on-call time by 4 hours/week. For that system, I scalably architected DynamoDB data store that supports more than 1 million new records per week.
+                    I also built a backend REST API using concurrent AWS lambda functions and AWS API Gateway to support hundreds of requests per second. 
+                    </p>
+                    <p className={classes.desctext}>
+                    I implemented Amazon-internal auth practices in the frontend and will deploy using Amazon S3 and AWS CloudFront CDN.
+                    Additionally, I handled tickets for our team's core services, optimizing their infrastructure, saving the team hundreds of dollars per month.
+                    </p>
+            </Row>
+            <Row className={classes.experiencecontainer}>
+                    <p className={classes.desctext}>
+                      <b>
+                      Undergraduate Teaching Assistant | Paul G. Allen School of Computer Science | March 2024 - Present
+                      </b>
+                    </p>
+                    <p className={classes.desctext}>
+                      I TA CSE 123, the 600 student, final intro series CS course, teaching students about OOP, Linked Lists, Binary Trees & Recursion. That means I teach 1-hour sections 2x weekly to 21 students, hold office hours to debug code, grade ~20 assignments per week.
+                    </p>
+            </Row>
+            <Row className={classes.experiencecontainer}>
+                    <p className={classes.desctext}>
+                      <b>
+                      Undergraduate Developer Intern | Makeability Lab @ The Paul G. Allen School | December 2023 - Present
+                      </b>
+                    </p>
+                    <p className={classes.desctext}>
+                    I work under Professor Jon Froelich & Lead Engineer Michael Saugstad on Project Sidewalk, a webapp designed to make travel more accessible for those with mobility-related disabilities with more than 1,500 users. I maintain the app and its related APIs.
+                    </p>
+                    <p className={classes.desctext}>
+                    Through this, I've done a lot of full stack dev in JavaScript, Scala (Slick framework) & PostgreSQL, now mainly resolving backend tickets & pushing to production weekly.
+                    Specifically, I've developed features to simplify users experience labeling sidewalks. I've created API Routes for tables collecting complex user data. 
+                    </p>
             </Row>
             <Row className={classes.experiencecontainer}>
                     <p className={classes.desctext}>

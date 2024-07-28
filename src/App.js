@@ -14,7 +14,7 @@ function App() {
       <div className={classes.backgroundimage}>
         <Navsection/>
         <div className={classes.content}>
-          <Chatbotframe />
+          {/* <Chatbotframe /> */}
           <Mainsection/>
           <Aboutsection/>
           <Experiencesection/>
