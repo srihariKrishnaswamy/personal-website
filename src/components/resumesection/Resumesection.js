@@ -10,7 +10,7 @@ function Resumesection() {
   return (
     <Fade duration={900} triggerOnce={true}>
     <section className={appClasses.section} id="resume">
-        <Container className={classes.section}>
+        {/* <Container className={classes.section}>
             <Row className={classes.contentrow}>
               <h2 className={classes.h2class}>My Resume</h2>
             </Row>
@@ -19,7 +19,7 @@ function Resumesection() {
                     You can access my most updated resume <a href="https://drive.google.com/file/d/1WX6U20dhPYcRoPIIBEIcOCppzDWQ6qHF/view?usp=sharing" className={classes.link}>here</a>
                 </p>
             </Row>
-        </Container>
+        </Container> */}
     </section>
     </Fade>
   )
