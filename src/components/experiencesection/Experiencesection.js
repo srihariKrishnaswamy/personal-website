@@ -21,11 +21,13 @@ function Experiencesection() {
                       </b>
                     </p>
                     <p className={classes.desctext}>
-                    I'm building a full stack query system helping on-call devs handle tickets more efficiently, targeting cutting down on-call time by 4 hours/week. For that system, I scalably architected DynamoDB data store that supports more than 1 million new records per week.
-                    I also built a backend REST API using concurrent AWS lambda functions and AWS API Gateway to support hundreds of requests per second. 
+                    I built a full stack query system helping on-call devs handle tickets more efficiently, targeting cutting down on-call time by 4 hours/week & saving the team thousands of dollars per month. For that system, I scalably architected DynamoDB data store that supports more than 1 million new records per week.
                     </p>
                     <p className={classes.desctext}>
-                    I implemented Amazon-internal auth practices in the frontend and will deploy using Amazon S3 and AWS CloudFront CDN.
+                    I also built a backend API using concurrent AWS lambda functions and AWS API Gateway to support hundreds of requests per second. 
+                    </p>
+                    <p className={classes.desctext}>
+                    I implemented Amazon-internal auth practices in the frontend that's deployed with Amazon S3 and AWS CloudFront CDN.
                     Additionally, I handled tickets for our team's core services, optimizing their infrastructure, saving the team hundreds of dollars per month.
                     </p>
             </Row>
