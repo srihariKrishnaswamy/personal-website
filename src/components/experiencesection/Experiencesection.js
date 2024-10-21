@@ -17,7 +17,7 @@ function Experiencesection() {
             <Row className={classes.experiencecontainer}>
                     <p className={classes.desctext}>
                       <b>
-                      Software Development Intern | Amazon | June 2024 - Present
+                      Software Development Intern | Amazon | June 2024 - September 2024
                       </b>
                     </p>
                     <p className={classes.desctext}>
